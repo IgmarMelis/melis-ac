@@ -1,0 +1,216 @@
+import React, { useState } from 'react';
+import { Grommet, Box, Header, Menu, Anchor, Text, ResponsiveContext } from 'grommet';
+import styled, { createGlobalStyle } from 'styled-components';
+import { useTranslation } from 'react-i18next';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import section1 from './assets/section1.png';
+import section2 from './assets/section2.png';
+import section3 from './assets/section3.png';
+
+const images = {
+  section1: section1,
+  section2: section2,
+  section3: section3,
+  section4: section3,
+  section5: section3,
+}  as Record<string,string>;
+
+// Define the colors for each section
+const sectionColors = {
+  section1: '#ff8c00',
+  section2: '#008080',
+  section3: '#6b8e23',
+  section4: '#9932cc',
+  section5: '#dc143c',
+} as Record<string,string>;
+
+// Define the translations for each language
+const resources = {
+  en: {
+    translation: {
+      section1: 'Section 1',
+      section2: 'Section 2',
+      section3: 'Section 3',
+      section4: 'Section 4',
+      section5: 'Section 5',
+      language: 'Language',
+      english: 'English',
+      french: 'French',
+      spanish: 'Spanish',
+    },
+  },
+  fr: {
+    translation: {
+      section1: 'Section 1',
+      section2: 'Section 2',
+      section3: 'Section 3',
+      section4: 'Section 4',
+      section5: 'Section 5',
+      language: 'Langue',
+      english: 'Anglais',
+      french: 'Français',
+      spanish: 'Espagnol',
+    },
+  },
+  es: {
+    translation: {
+      section1: 'Sección 1',
+      section2: 'Sección 2',
+      section3: 'Sección 3',
+      section4: 'Sección 4',
+      section5: 'Sección 5',
+      language: 'Idioma',
+      english: 'Inglés',
+      french: 'Francés',
+      spanish: 'Español',
+    },
+  },
+};
+
+// Initialize i18next
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'en',
+  interpolation: { escapeValue: false },
+});
+
+// Define the global styles
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: ${props => (props.theme as any).global.colors.background};
+  }
+`;
+
+// Define the styled components
+const Section = styled(Box)`
+  height: 80rem;
+  background: white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: ${props => {    
+    return `url(${images[props.id || 'section1']})`;
+  }};
+`;
+
+const SmallMenuAnchor = styled(Anchor)`
+  font-size: 14px;
+  color: ${props => props.theme.global.colors.text};
+`;
+
+const App = () => {
+  const [activeLanguage, setActiveLanguage] = useState('en');
+  const { t } = useTranslation();
+
+  return (
+    <Grommet themeMode="dark" theme={{ global: { colors: { background: '#444444' } } }}>
+      <GlobalStyle />
+      <Header background="brand" pad="medium">
+        <Box direction="row" align="center" gap="medium">
+          <Text size="large" weight="bold">
+            My Website
+          </Text>
+        </Box>
+        <ResponsiveContext.Consumer>
+          {size =>
+            size === 'small' ? (
+              <Menu
+                icon={false}
+                dropAlign={{ top: 'bottom', right: 'right' }}
+                items={[
+                  { label: t('section1'), href: '#section1' },
+                  { label: t('section2'), href: '#section2' },
+                  { label: t('section3'), href: '#section3' },
+                  { label: t('section4'), href: '#section4' },
+                  { label: t('section5'), href: '#section5' },
+                ]}
+              />
+            ) : (
+              <Box direction="row" align="center" gap="medium">
+                <Anchor href="#section1" color="white">
+                  {t('section1')}
+                </Anchor>
+                <Anchor href="#section2" color="white">
+                  {t('section2')}
+                </Anchor>
+                <Anchor href="#section3" color="white">
+                  {t('section3')}
+                </Anchor>
+                <Anchor href="#section4" color="white">
+                  {t('section4')}
+                </Anchor>
+                <Anchor href="#section5" color="white">
+                  {t('section5')}
+                </Anchor>
+              </Box>
+            )
+          }
+        </ResponsiveContext.Consumer>
+        <Box direction="row" align="center" gap="medium">
+          <Box>
+            <Menu
+              label={
+                <SmallMenuAnchor color="white">
+                  {t(activeLanguage)}
+                </SmallMenuAnchor>
+              }
+              dropAlign={{ top: 'bottom', right: 'right' }}
+              items={[
+                {
+                  label: 'English',
+                  onClick: () => {
+                    i18n.changeLanguage('en');
+                    setActiveLanguage('en');
+                  },
+                },
+                {
+                  label: 'Français',
+                  onClick: () => {
+                    i18n.changeLanguage('fr');
+                    setActiveLanguage('fr');
+                  },
+                },
+                {
+                  label: 'Español',
+                  onClick: () => {
+                    i18n.changeLanguage('es');
+                    setActiveLanguage('es');
+                  },
+                },
+              ]}
+            />
+          </Box>
+        </Box>
+      </Header>
+      <Section id="section1" pad="medium">
+        <Text size="xxlarge" weight="bold">
+          {t('section1')}
+        </Text>
+      </Section>
+      <Section id="section2" pad="medium">
+        <Text size="xxlarge" weight="bold">
+          {t('section2')}
+        </Text>
+      </Section>
+      <Section id="section3" pad="medium">
+        <Text size="xxlarge" weight="bold">
+          {t('section3')}
+        </Text>
+      </Section>
+      <Section id="section4" pad="medium">
+        <Text size="xxlarge" weight="bold">
+          {t('section4')}
+        </Text>
+      </Section>
+      <Section id="section5" pad="medium">
+        <Text size="xxlarge" weight="bold">
+          {t('section5')}
+        </Text>
+      </Section>
+    </Grommet>
+    );
+  };
+  
+  export default App;

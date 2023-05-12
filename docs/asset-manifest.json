@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "https://igmarmelis.github.io/melis-ac/static/js/main.14562f58.js",
+    "static/media/motor.png": "https://igmarmelis.github.io/melis-ac/static/media/motor.340d168fc3b6eb21617f.png",
+    "static/media/garage.png": "https://igmarmelis.github.io/melis-ac/static/media/garage.c47dfdd1241be030b37c.png",
+    "static/media/circuito.png": "https://igmarmelis.github.io/melis-ac/static/media/circuito.b68c3016c2f8d9c48a4d.png",
+    "static/media/auto-playa.png": "https://igmarmelis.github.io/melis-ac/static/media/auto-playa.8596b6018e62e1dfbab8.png",
+    "static/media/convertible.jpg": "https://igmarmelis.github.io/melis-ac/static/media/convertible.33fec06fd475718623da.jpg",
+    "static/media/logo-melis-ac.svg": "https://igmarmelis.github.io/melis-ac/static/media/logo-melis-ac.d93a632f71e2aab9430d852011f42b15.svg",
+    "index.html": "https://igmarmelis.github.io/melis-ac/index.html",
+    "main.14562f58.js.map": "https://igmarmelis.github.io/melis-ac/static/js/main.14562f58.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.14562f58.js"
+  ]
+}
