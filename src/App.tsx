@@ -11,7 +11,8 @@ import { LanguageMenu } from './components/LanguageMenu';
 import { About } from './sections/About';
 import { Services } from './sections/Services';
 import { Home } from './sections/Home';
-import { Faq } from './sections/Faq';
+import { Faq1 } from './sections/Faq1';
+import { Faq2 } from './sections/Faq2';
 
 // https://design-system.hpe.design/components/page#full-width-background-color
 // Define the translations for each language
@@ -21,6 +22,7 @@ import { Faq } from './sections/Faq';
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${(props) => (props.theme as any).global.colors.background};
+    margin: 0;
   }
 `;
 
@@ -64,7 +66,8 @@ const App = () => {
               <Home />
               <Services />
               <About />
-              <Faq />
+              <Faq1 />
+              <Faq2 />
               <Section id='contact' pad='medium'>
                 <Text size='xxlarge' weight='bold'>
                   {t('contact')}
