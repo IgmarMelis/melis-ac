@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "https://igmarmelis.github.io/melis-ac/static/js/main.14562f58.js",
-    "static/media/motor.png": "https://igmarmelis.github.io/melis-ac/static/media/motor.340d168fc3b6eb21617f.png",
-    "static/media/garage.png": "https://igmarmelis.github.io/melis-ac/static/media/garage.c47dfdd1241be030b37c.png",
-    "static/media/circuito.png": "https://igmarmelis.github.io/melis-ac/static/media/circuito.b68c3016c2f8d9c48a4d.png",
-    "static/media/auto-playa.png": "https://igmarmelis.github.io/melis-ac/static/media/auto-playa.8596b6018e62e1dfbab8.png",
-    "static/media/convertible.jpg": "https://igmarmelis.github.io/melis-ac/static/media/convertible.33fec06fd475718623da.jpg",
+    "main.js": "https://igmarmelis.github.io/melis-ac/static/js/main.72a8e8e9.js",
+    "static/media/contact.png": "https://igmarmelis.github.io/melis-ac/static/media/contact.0965b7991b420c3fcccb.png",
+    "static/media/motor.png": "https://igmarmelis.github.io/melis-ac/static/media/motor.ae3ee3aacaf1154ebf0d.png",
+    "static/media/garage.png": "https://igmarmelis.github.io/melis-ac/static/media/garage.96937e444aa8dec3339c.png",
+    "static/media/circuito.png": "https://igmarmelis.github.io/melis-ac/static/media/circuito.e6e4756792dd40da8ebf.png",
+    "static/media/auto-playa.png": "https://igmarmelis.github.io/melis-ac/static/media/auto-playa.66d7da8933d9d47dd5c9.png",
+    "static/media/convertible.png": "https://igmarmelis.github.io/melis-ac/static/media/convertible.997a53a98157443ff904.png",
     "static/media/logo-melis-ac.svg": "https://igmarmelis.github.io/melis-ac/static/media/logo-melis-ac.d93a632f71e2aab9430d852011f42b15.svg",
     "index.html": "https://igmarmelis.github.io/melis-ac/index.html",
-    "main.14562f58.js.map": "https://igmarmelis.github.io/melis-ac/static/js/main.14562f58.js.map"
+    "main.72a8e8e9.js.map": "https://igmarmelis.github.io/melis-ac/static/js/main.72a8e8e9.js.map"
   },
   "entrypoints": [
-    "static/js/main.14562f58.js"
+    "static/js/main.72a8e8e9.js"
   ]
 }
