@@ -1,40 +1,7 @@
 import { Box, BoxExtendedProps, ResponsiveContext } from 'grommet';
 import { PropsWithChildren } from 'react';
-
-const innerBoxProps: BoxExtendedProps = {
-  align: 'center',
-  justify: 'center',
-  fill: 'horizontal',
-  height: 'auto'
-};
-
-const ImageBox = (props: { image: String }) => {
-  return (
-    <ResponsiveContext.Consumer>
-      {(size) =>
-        size === 'small' ? (
-          <Box
-            {...innerBoxProps}
-            height={{ min: 'medium', height: '100%' }}
-            background={{
-              image: `url(${props.image})`,
-              size: 'small'
-            }}
-          />
-        ) : (
-          <Box
-            {...innerBoxProps}
-            height={{ min: 'large', height: '100%' }}
-            background={{
-              image: `url(${props.image})`,
-              size: 'medium'
-            }}
-          />
-        )
-      }
-    </ResponsiveContext.Consumer>
-  );
-};
+import { ImageBox } from './ImageBox';
+import { innerBoxProps } from './CommonProps';
 
 export const SectionBox = (
   props: PropsWithChildren<
@@ -68,7 +35,11 @@ export const SectionBox = (
           ) : (
             <>
               {imagePosition === 'left' ? imageBox : undefined}
-              <Box {...innerBoxProps} pad={'20px'}>{props.children}</Box>
+              {props.children && (
+                <Box {...innerBoxProps} pad={'20px'}>
+                  {props.children}
+                </Box>
+              )}
               {imagePosition === 'right' ? imageBox : undefined}
             </>
           )

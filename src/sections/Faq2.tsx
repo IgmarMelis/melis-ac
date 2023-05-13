@@ -1,8 +1,9 @@
-import { Text, Paragraph } from 'grommet';
+import { Text } from 'grommet';
 import { DefaultImages } from '../components/DefaultImages';
 import { SectionBox } from '../components/SectionBox';
 import { useTranslation } from 'react-i18next';
 import { TextCard } from '../components/TextCard';
+import { NoLimitParagrah } from '../components/NoLimitParagraph';
 
 export const Faq2 = () => {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ export const Faq2 = () => {
             <Text size='medium' weight='bold'>
               {t(`faq-text-${item}-q`)}
             </Text>
-            <Paragraph size='medium'>{t(`faq-text-${item}-a`)}</Paragraph>
+            <NoLimitParagrah size='medium'>{t(`faq-text-${item}-a`)}</NoLimitParagrah>
           </>
         ))}
       </TextCard>

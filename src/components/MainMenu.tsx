@@ -12,11 +12,11 @@ export const MainMenu = () => (
           <Anchor href='#services' style={{ whiteSpace: 'nowrap' }}>
             {t('services')}
           </Anchor>
-          <Anchor href='#about' style={{ whiteSpace: 'nowrap' }}>
-            {t('about')}
-          </Anchor>
           <Anchor href='#faq' style={{ whiteSpace: 'nowrap' }}>
             {t('faq')}
+          </Anchor>
+          <Anchor href='#about' style={{ whiteSpace: 'nowrap' }}>
+            {t('about')}
           </Anchor>
           <Anchor href='#contact' style={{ whiteSpace: 'nowrap' }}>
             {t('contact')}

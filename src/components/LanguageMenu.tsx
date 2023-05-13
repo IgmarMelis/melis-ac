@@ -9,7 +9,7 @@ const SmallMenuAnchor = styled(Anchor)`
 `;
 
 export const LanguageMenu = () => {
-  const [activeLanguage, setActiveLanguage] = useState('en');
+  const [activeLanguage, setActiveLanguage] = useState('es');
 
   return (
     <Box direction='row' align='center' gap='medium'>

@@ -1,6 +1,6 @@
 import { Grommet, Box, Header, Text, Page, PageContent, Grid } from 'grommet';
 
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import { useTranslation } from 'react-i18next';
 
 import { ReactComponent as Logo } from './assets/logo-melis-ac.svg';
@@ -9,10 +9,12 @@ import { MainMenu } from './components/MainMenu';
 import { MobileMenu } from './components/MobileMenu';
 import { LanguageMenu } from './components/LanguageMenu';
 import { About } from './sections/About';
-import { Services } from './sections/Services';
+import { Services1 } from './sections/Services1';
 import { Home } from './sections/Home';
 import { Faq1 } from './sections/Faq1';
 import { Faq2 } from './sections/Faq2';
+import { Contact } from './sections/Contact';
+import { Services2 } from './sections/Services2';
 
 // https://design-system.hpe.design/components/page#full-width-background-color
 // Define the translations for each language
@@ -24,15 +26,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => (props.theme as any).global.colors.background};
     margin: 0;
   }
-`;
-
-// Define the styled components
-const Section = styled(Box)`
-  background: white;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.8;
 `;
 
 const AppHeader = () => {
@@ -54,8 +47,6 @@ const AppHeader = () => {
 };
 
 const App = () => {
-  const { t } = useTranslation();
-
   return (
     <Grommet theme={grayScaleTheme}>
       <GlobalStyle />
@@ -64,15 +55,12 @@ const App = () => {
           <div style={{ marginTop: '30px' }}>
             <Grid columns={['auto']} rows={['auto', 'auto', 'auto', 'auto', 'auto']}>
               <Home />
-              <Services />
-              <About />
+              <Services1 />
+              <Services2 />
               <Faq1 />
               <Faq2 />
-              <Section id='contact' pad='medium'>
-                <Text size='xxlarge' weight='bold'>
-                  {t('contact')}
-                </Text>
-              </Section>
+              <About />
+              <Contact/>
             </Grid>
           </div>
         </PageContent>

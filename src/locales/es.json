@@ -26,9 +26,14 @@
   "faq-text-8-q": "¿Pueden diagnosticar y reparar sistemas eléctricos adaptados por un tercero?",
   "faq-text-8-a": "Sí, tenemos experiencia en el diagnóstico y reparación de sistemas eléctricos adaptados por terceros.",
   "contact": "Contáctanos",
-  "services-text-1": "Diagnóstico y Reparación Eléctrica: Nuestro taller de reparación de automóviles se especializa en el diagnóstico y reparación de fallas eléctricas en autos clásicos. Desde solucionar problemas en los sistemas eléctricos hasta arreglar inconvenientes con el generador de electricidad, motor de arranque y la unidad de control electrónico, estamos aquí para ayudarte.",
-  "services-text-2": "Servicios de Aire Acondicionado: Ofrecemos servicios completos de aire acondicionado diseñados específicamente para autos clásicos. Nuestro equipo puede asegurarse de que el sistema de aire acondicionado de tu vehículo esté en óptimas condiciones, brindándote comodidad durante tus viajes.",
-  "services-text-3": "Soldadura y Soldadura con Autógena: Nuestros técnicos expertos dominan la soldadura con materiales como cobre, bronce y aluminio, así como las técnicas de soldadura MIG, TIG y con autógena. Podemos encargarnos de diversas reparaciones y adaptaciones que requieran una soldadura y soldadura con autógena precisa.",
-  "services-text-4": "Programación de Microcontroladores: Mejora la funcionalidad y seguridad de tu auto clásico con nuestros servicios de programación de microcontroladores. Nuestros técnicos pueden programar cerraduras centralizadas, alarmas y componentes electrónicos según tus necesidades específicas.",
+  "services-title-1": "Diagnóstico y Reparación Eléctrica:",
+  "services-title-2": "Servicios de Aire Acondicionado:",
+  "services-title-3": "Soldadura y Soldadura con Autógena:",
+  "services-title-4": "Programación de Microcontroladores:",
+  "services-title-5": "Resumen:",
+  "services-text-1": "Nuestro taller de reparación de automóviles se especializa en el diagnóstico y reparación de fallas eléctricas en autos clásicos. Desde solucionar problemas en los sistemas eléctricos hasta arreglar inconvenientes con el generador de electricidad, motor de arranque y la unidad de control electrónico, estamos aquí para ayudarte.",
+  "services-text-2": "Ofrecemos servicios completos de aire acondicionado diseñados específicamente para autos clásicos. Nuestro equipo puede asegurarse de que el sistema de aire acondicionado de tu vehículo esté en óptimas condiciones, brindándote comodidad durante tus viajes.",
+  "services-text-3": "Nuestros técnicos expertos dominan la soldadura con materiales como cobre, bronce y aluminio, así como las técnicas de soldadura MIG, TIG y con autógena. Podemos encargarnos de diversas reparaciones y adaptaciones que requieran una soldadura y soldadura con autógena precisa.",
+  "services-text-4": "Mejora la funcionalidad y seguridad de tu auto clásico con nuestros servicios de programación de microcontroladores. Nuestros técnicos pueden programar cerraduras centralizadas, alarmas y componentes electrónicos según tus necesidades específicas.",
   "services-text-5": "Con nuestra experiencia en reparaciones eléctricas, servicios de aire acondicionado, soldadura, soldadura con autógena y programación de microcontroladores, nos comprometemos a brindar soluciones confiables y de alta calidad para tu auto clásico. Confía en nosotros para darle nueva vida a tu vehículo y garantizar que se mantenga en excelente estado."
 }

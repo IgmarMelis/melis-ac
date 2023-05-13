@@ -12,7 +12,7 @@ export const grayScaleTheme: ThemeType = {
       },
       background: {
         dark: '#111111',
-        light: '#FFFFFF'
+        light: '#E1E1E1'
       },
       'background-back': {
         dark: '#111111',
@@ -20,7 +20,7 @@ export const grayScaleTheme: ThemeType = {
       },
       'background-front': {
         dark: '#222222',
-        light: '#FFFFFF'
+        light: '#E1E1E1'
       },
       'background-contrast': {
         dark: '#FFFFFF11',

@@ -11,8 +11,8 @@ export const MobileMenu = () => (
           items={[
             { label: t('home'), href: '#home' },
             { label: t('services'), href: '#services' },
-            { label: t('about'), href: '#about' },
             { label: t('faq'), href: '#faq' },
+            { label: t('about'), href: '#about' },
             { label: t('contact'), href: '#contact' }
           ]}
         />
