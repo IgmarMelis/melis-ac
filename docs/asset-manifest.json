@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "https://igmarmelis.github.io/melis-ac/static/js/main.05b10b89.js",
-    "static/media/contact.png": "https://igmarmelis.github.io/melis-ac/static/media/contact.0965b7991b420c3fcccb.png",
-    "static/media/motor.png": "https://igmarmelis.github.io/melis-ac/static/media/motor.ae3ee3aacaf1154ebf0d.png",
-    "static/media/garage.png": "https://igmarmelis.github.io/melis-ac/static/media/garage.96937e444aa8dec3339c.png",
-    "static/media/circuito.png": "https://igmarmelis.github.io/melis-ac/static/media/circuito.e6e4756792dd40da8ebf.png",
-    "static/media/auto-playa.png": "https://igmarmelis.github.io/melis-ac/static/media/auto-playa.66d7da8933d9d47dd5c9.png",
-    "static/media/car-lid-open.png": "https://igmarmelis.github.io/melis-ac/static/media/car-lid-open.5e63be200f6a5dda88c1.png",
-    "static/media/convertible.png": "https://igmarmelis.github.io/melis-ac/static/media/convertible.997a53a98157443ff904.png",
-    "static/media/logo-melis-ac.svg": "https://igmarmelis.github.io/melis-ac/static/media/logo-melis-ac.d93a632f71e2aab9430d852011f42b15.svg",
-    "index.html": "https://igmarmelis.github.io/melis-ac/index.html",
-    "main.05b10b89.js.map": "https://igmarmelis.github.io/melis-ac/static/js/main.05b10b89.js.map"
+    "main.js": "www.melis-ac.tech/static/js/main.4353d918.js",
+    "static/media/contact.png": "www.melis-ac.tech/static/media/contact.0965b7991b420c3fcccb.png",
+    "static/media/motor.png": "www.melis-ac.tech/static/media/motor.ae3ee3aacaf1154ebf0d.png",
+    "static/media/garage.png": "www.melis-ac.tech/static/media/garage.96937e444aa8dec3339c.png",
+    "static/media/circuito.png": "www.melis-ac.tech/static/media/circuito.e6e4756792dd40da8ebf.png",
+    "static/media/auto-playa.png": "www.melis-ac.tech/static/media/auto-playa.66d7da8933d9d47dd5c9.png",
+    "static/media/car-lid-open.png": "www.melis-ac.tech/static/media/car-lid-open.5e63be200f6a5dda88c1.png",
+    "static/media/convertible.png": "www.melis-ac.tech/static/media/convertible.997a53a98157443ff904.png",
+    "static/media/logo-melis-ac.svg": "www.melis-ac.tech/static/media/logo-melis-ac.d93a632f71e2aab9430d852011f42b15.svg",
+    "index.html": "www.melis-ac.tech/index.html",
+    "main.4353d918.js.map": "www.melis-ac.tech/static/js/main.4353d918.js.map"
   },
   "entrypoints": [
-    "static/js/main.05b10b89.js"
+    "static/js/main.4353d918.js"
   ]
 }

@@ -28,7 +28,7 @@ export const Contact = () => {
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
               <ContactInfo />
-              <span>melisigmar@gmail.com</span>
+              <span>info@melis-ac.tech</span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px', alignItems: 'center' }}>
               <TelegramIcon style={{ padding: '4px' }} />
