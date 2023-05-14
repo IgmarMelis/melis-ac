@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "www.melis-ac.tech/static/js/main.4353d918.js",
-    "static/media/contact.png": "www.melis-ac.tech/static/media/contact.0965b7991b420c3fcccb.png",
-    "static/media/motor.png": "www.melis-ac.tech/static/media/motor.ae3ee3aacaf1154ebf0d.png",
-    "static/media/garage.png": "www.melis-ac.tech/static/media/garage.96937e444aa8dec3339c.png",
-    "static/media/circuito.png": "www.melis-ac.tech/static/media/circuito.e6e4756792dd40da8ebf.png",
-    "static/media/auto-playa.png": "www.melis-ac.tech/static/media/auto-playa.66d7da8933d9d47dd5c9.png",
-    "static/media/car-lid-open.png": "www.melis-ac.tech/static/media/car-lid-open.5e63be200f6a5dda88c1.png",
-    "static/media/convertible.png": "www.melis-ac.tech/static/media/convertible.997a53a98157443ff904.png",
-    "static/media/logo-melis-ac.svg": "www.melis-ac.tech/static/media/logo-melis-ac.d93a632f71e2aab9430d852011f42b15.svg",
-    "index.html": "www.melis-ac.tech/index.html",
-    "main.4353d918.js.map": "www.melis-ac.tech/static/js/main.4353d918.js.map"
+    "main.js": "/static/js/main.e5d30eeb.js",
+    "static/media/contact.png": "/static/media/contact.0965b7991b420c3fcccb.png",
+    "static/media/motor.png": "/static/media/motor.ae3ee3aacaf1154ebf0d.png",
+    "static/media/garage.png": "/static/media/garage.96937e444aa8dec3339c.png",
+    "static/media/circuito.png": "/static/media/circuito.e6e4756792dd40da8ebf.png",
+    "static/media/auto-playa.png": "/static/media/auto-playa.66d7da8933d9d47dd5c9.png",
+    "static/media/car-lid-open.png": "/static/media/car-lid-open.5e63be200f6a5dda88c1.png",
+    "static/media/convertible.png": "/static/media/convertible.997a53a98157443ff904.png",
+    "static/media/logo-melis-ac.svg": "/static/media/logo-melis-ac.d93a632f71e2aab9430d852011f42b15.svg",
+    "index.html": "/index.html",
+    "main.e5d30eeb.js.map": "/static/js/main.e5d30eeb.js.map"
   },
   "entrypoints": [
-    "static/js/main.4353d918.js"
+    "static/js/main.e5d30eeb.js"
   ]
 }
