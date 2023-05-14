@@ -3,9 +3,10 @@ import { t } from 'i18next';
 
 export const MainMenu = () => (
   <ResponsiveContext.Consumer>
-    {(size) =>
-      size === 'small' ? null : (
-        <Box direction='row' align='center' gap='medium'>
+    {(size) => {
+      const gap = size === 'small' || size === 'medium' ? 'small' : 'medium';
+      return size === 'small' ? null : (
+        <Box direction='row' align='center' gap={gap}>
           <Anchor href='#home' style={{ whiteSpace: 'nowrap' }}>
             {t('home')}
           </Anchor>
@@ -22,7 +23,7 @@ export const MainMenu = () => (
             {t('contact')}
           </Anchor>
         </Box>
-      )
-    }
+      );
+    }}
   </ResponsiveContext.Consumer>
 );

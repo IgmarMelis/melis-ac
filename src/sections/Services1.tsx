@@ -24,7 +24,6 @@ export const Services1 = () => {
             <NoLimitParagrah size='medium'>{t(`services-text-${item}`)}</NoLimitParagrah>
           </>
         ))}
-
       </TextCard>
     </SectionBox>
   );

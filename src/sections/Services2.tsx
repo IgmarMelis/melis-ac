@@ -14,7 +14,7 @@ export const Services2 = () => {
   }
 
   return (
-    <SectionBox id='services' pad='small' image={DefaultImages.Circuito} imagePosition='left'>
+    <SectionBox id='services' pad='small' image={DefaultImages.CarOpenLid} imagePosition='left'>
       <TextCard>
         {items.map((item) => (
           <>
