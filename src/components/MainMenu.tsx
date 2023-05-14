@@ -1,7 +1,10 @@
 import { Box, Anchor, ResponsiveContext } from 'grommet';
-import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
 
-export const MainMenu = () => (
+export const MainMenu = () => {
+  const { t } = useTranslation();
+
+  return (
   <ResponsiveContext.Consumer>
     {(size) => {
       const gap = size === 'small' || size === 'medium' ? 'small' : 'medium';
@@ -27,3 +30,4 @@ export const MainMenu = () => (
     }}
   </ResponsiveContext.Consumer>
 );
+}

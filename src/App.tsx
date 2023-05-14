@@ -1,4 +1,4 @@
-import { Grommet, Page, PageContent, Grid } from 'grommet';
+import { Grommet, Page, PageContent } from 'grommet';
 
 import { createGlobalStyle } from 'styled-components';
 
@@ -30,7 +30,7 @@ const App = () => {
       <GlobalStyle />
       <Page>
         <PageContent>
-          <div style={{ display: 'flex', flexDirection: 'column', marginTop: '70px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', marginTop: '80px' }}>
             <Home />
             <Services1 />
             <Services2 />
